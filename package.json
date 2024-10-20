@@ -1,0 +1,25 @@
+{
+  "name": "dressore",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-handlebars": "^7.1.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.6.3",
+    "mongoose-delete": "^1.0.2",
+    "mongoose-sequence": "^6.0.1",
+    "mongoose-slug-generator": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

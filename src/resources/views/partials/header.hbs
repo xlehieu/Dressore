@@ -1,0 +1,112 @@
+<nav
+    class='navbar navbar-expand-lg bg-white text-uppercase fs-6 pt-0 border-bottom align-items-center link-header d-flex flex-column'
+>
+    <div class='container-fluid header-top'>
+        <div class='row align-items-center w-100'>
+            <div class='col-4'>
+                <button
+                    class='navbar-toggler'
+                    type='button'
+                    data-bs-toggle='offcanvas'
+                    data-bs-target='#offcanvasNavbar'
+                    aria-controls='offcanvasNavbar'
+                >
+                    <span class='navbar-toggler-icon'></span>
+                </button>
+
+                <div
+                    class='offcanvas offcanvas-end'
+                    tabindex='-1'
+                    id='offcanvasNavbar'
+                    aria-labelledby='offcanvasNavbarLabel'
+                >
+                    <div class='offcanvas-header'>
+                        <h5 class='offcanvas-title' id='offcanvasNavbarLabel'>Menu</h5>
+                        <button
+                            type='button'
+                            class='btn-close text-reset'
+                            data-bs-dismiss='offcanvas'
+                            aria-label='Close'
+                        ></button>
+                    </div>
+
+                    <div class='offcanvas-body'>
+                        <ul class='navbar-nav justify-content-start gap-1'>
+                            <li class='nav-item'>
+                                <a class='nav-link link-header' href='/'>VỀ DRESSORE</a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class='nav-link link-header' href='/'>SẢN PHẨM</a>
+                            </li>
+                            <li class='nav-item dropdown d-none'>
+                                <a
+                                    class='nav-link dropdown-toggle'
+                                    href='#'
+                                    id='dropdownPages'
+                                    data-bs-toggle='dropdown'
+                                    aria-haspopup='true'
+                                    aria-expanded='false'
+                                >Pages</a>
+                                <ul class='dropdown-menu list-unstyled' aria-labelledby='dropdownPages'>
+                                    <li>
+                                        <a href='index.html' class='dropdown-item item-anchor'>About </a>
+                                    </li>
+                                    <li>
+                                        <a href='index.html' class='dropdown-item item-anchor'>Cart </a>
+                                    </li>
+                                    <li>
+                                        <a href='index.html' class='dropdown-item item-anchor'>Checkout </a>
+                                    </li>
+                                    <li>
+                                        <a href='index.html' class='dropdown-item item-anchor'>Coming Soon </a>
+                                    </li>
+                                    <li>
+                                        <a href='index.html' class='dropdown-item item-anchor'>Contact </a>
+                                    </li>
+                                    <li>
+                                        <a href='index.html' class='dropdown-item item-anchor'>Error Page </a>
+                                    </li>
+                                    <li>
+                                        <a href='index.html' class='dropdown-item item-anchor'>FAQs </a>
+                                    </li>
+                                    <li>
+                                        <a href='index.html' class='dropdown-item item-anchor'>My Account </a>
+                                    </li>
+                                    <li>
+                                        <a href='index.html' class='dropdown-item item-anchor'>Order Tracking </a>
+                                    </li>
+                                    <li>
+                                        <a href='index.html' class='dropdown-item item-anchor'>Wishlist </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class='col-4 d-flex justify-content-center align-items-cente'>
+                <a class='navbar-brand text-white' href='/'>
+                    <img width='120' height='45' src='/img/Dressore.png' />
+                </a>
+            </div>
+            <div class='col-4 d-flex justify-content-end'>
+                <ul class='navbar-nav justify-content-start gap-1'>
+                    <li class='nav-item'>
+                        <a class='nav-link link-header' href='/'>TÌM KIẾM</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link link-header' href='/'>GIỎ HÀNG</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link link-header' href='/login'>ĐĂNG NHẬP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class='container-fluid p-0 float-start'>
+        <a href='/product'>
+            <img class='w-100' src='{{banner.url}}' alt='' />
+        </a>
+    </div>
+</nav>

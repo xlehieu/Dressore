@@ -1,0 +1,52 @@
+body {
+    --heading-font: 'Raleway', sans-serif;
+    --heading-font-weight: 400;
+    --heading-color: #111;
+    --heading-line-height: 1.24;
+
+    --swiper-theme-color: #8c907e;
+
+    /* bootstrap */
+    --bs-body-font-family: 'Noto Serif Display', serif;
+    --bs-body-font-size: 18px;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #8f8f8f;
+    --bs-body-color-rgb: 143, 143, 143;
+
+    --bs-primary: #8c907e;
+    --bs-secondary: #6c757d;
+    --bs-black: #111;
+    --bs-light: #f1f1f0;
+    --bs-dark: #212529;
+    --bs-gray: #9aa1a7;
+    --bs-gray-dark: #51565b;
+
+    --bs-primary-rgb: 140, 144, 126;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-black-rgb: 17, 17, 17;
+    --bs-light-rgb: 241, 241, 240;
+    --bs-dark-rgb: 33, 37, 41;
+
+    --bs-link-color: #111;
+    --bs-link-color-rgb: 17, 17, 17;
+    --bs-link-decoration: underline;
+    --bs-link-hover-color: #111;
+    --bs-link-hover-color-rgb: 17, 17, 17;
+    --white-color: #fff;
+}
+
+.link-header {
+    font-family: var(--heading-font);
+    color: var(--white-color);
+    font-size: 14px;
+}
+.bg-white {
+    background-color: var(--white-color);
+}
+.bg-transparent {
+    background-color: transparent;
+}
+.header-top {
+    position: absolute;
+}
