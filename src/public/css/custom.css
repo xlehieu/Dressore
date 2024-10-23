@@ -34,9 +34,10 @@ body {
     --bs-link-hover-color: #111;
     --bs-link-hover-color-rgb: 17, 17, 17;
     --white-color: #fff;
+    --black-color: #000;
 }
-
-.link-header {
+/* main layout */
+.link-header-main-layout {
     font-family: var(--heading-font);
     color: var(--white-color);
     font-size: 14px;
@@ -49,4 +50,11 @@ body {
 }
 .header-top {
     position: absolute;
+}
+
+/* sub layout */
+.link-header-sub-layout {
+    font-family: var(--heading-font);
+    color: var(--black-color);
+    font-size: 14px;
 }
