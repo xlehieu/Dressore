@@ -12,7 +12,6 @@ app.use(
         extended: true,
     }),
 );
-
 // cho phép truy cập từ trình duyệt vào những file tĩnh trong thư mục public
 app.use(express.static(path.join(process.cwd(), 'src', 'public')));
 
