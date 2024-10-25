@@ -3,12 +3,32 @@
         BẠN ĐÃ CÓ TÀI KHOẢN
     </p>
     <p class='text-center my-font fw-medium'>
-        Đăng nhập tài khoản của bạn tại DCHIC
+        Đăng nhập tài khoản của bạn tại DRESSORE
     </p>
-    <div class='row d-flex justify-content-center'>
-        <form class='d-flex flex-column justify-content-center col col-4 gap-3'>
-            <input width='370' height='38' class='px-3 py-1 my-font' placeholder='Số điện thoại' />
-            <input width='370' height='38' class='px-3 py-1 my-font' type='password' placeholder='Mật khẩu' />
-        </form>
-    </div>
+    <form method='post'>
+        <div class='row d-flex justify-content-center'>
+            <div class='d-flex flex-column justify-content-center col col-4 gap-3'>
+                <div class='d-flex flex-column justify-content-center gap-3'>
+                    <input width='370' height='38' class='px-3 py-2 my-font' placeholder='Số điện thoại*' />
+                    <input width='370' height='38' class='px-3 py-2 my-font' type='password' placeholder='Mật khẩu*' />
+                </div>
+                <div class='text-end'>
+                    <a class='text-decoration-underline my-font fw-semibold' href=''>Quên mật khẩu</a>
+                </div>
+                <div class='text-start my-font'>
+                    <label for='check-remember-me' class='remember-me d-flex gap-2'>
+                        <input id='check-remember-me' class='checkbox-info d-none' type='checkbox' />
+                        <span class='checkmark-remember-me d-flex align-items-center justify-content-center'>
+                            <i class='fa-solid fa-check' style='font-size: 20px; color:white'></i>
+                        </span>
+                        Ghi nhớ tài khoản
+                    </label>
+                </div>
+                <div class='d-grid mt-3'>
+                    <button class='btn btn-primary my-font py-3' type='submit'>Đăng nhập</button>
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
+<script src='/script/login.js'></script>

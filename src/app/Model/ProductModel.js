@@ -24,9 +24,8 @@ const ProductSchema = new Schema(
             required: true,
         },
         category: {
-            type: String,
-            required: true,
-            default: 'Product',
+            type: Schema.Types.ObjectId,
+            ref: 'category',
         },
         slug: { type: String, slug: 'name' },
     },
