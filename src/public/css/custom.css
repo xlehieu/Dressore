@@ -1,5 +1,5 @@
 body {
-    --heading-font: 'Raleway', sans-serif;
+    --my-font: 'Raleway', sans-serif;
     --heading-font-weight: 400;
     --heading-color: #111;
     --heading-line-height: 1.24;
@@ -38,7 +38,7 @@ body {
 }
 /* main layout */
 .link-header-main-layout {
-    font-family: var(--heading-font);
+    font-family: var(--my-font);
     color: var(--white-color);
     font-size: 14px;
 }
@@ -54,7 +54,26 @@ body {
 
 /* sub layout */
 .link-header-sub-layout {
-    font-family: var(--heading-font);
+    font-family: var(--my-font);
     color: var(--black-color);
     font-size: 14px;
+}
+
+.my-font {
+    font-family: var(--my-font);
+}
+
+/* login */
+.checkmark-remember-me {
+    display: block;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border: solid 1px #909090;
+}
+.checkmark-remember-me:hover {
+    background-color: #ccc;
+}
+.remember-me #check-remember-me:checked ~ .checkmark-remember-me {
+    background-color: #2196f3;
 }
